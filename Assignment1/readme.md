@@ -2,7 +2,7 @@
 
 An array in Java without any name is anonymous array.
 
-## code for anonymous array
+## Code for Anonymous array
 ```javascript
 class Test { 
     public static void main(String[] args) 
@@ -22,5 +22,5 @@ class Test {
     } 
 } 
 ```
-## output
+## Output
 The sum is 6
