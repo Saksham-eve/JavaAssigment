@@ -7,12 +7,12 @@ It is a marker interface which every listener interface has to extend. This clas
 
 ## Class Declaration
 ### Following is the declaration for java.util.EventListener interface -
-* public interface EventListener *
+*public interface EventListener*
 
 ## Event Listener Interfaces
 ### Following are some of the most commonly used event listeners :
 
-| ** Class ** | ** Description ** |
+| **Class** | **Description** |
 |------------------- | ------------------------------- |
 | Actionlistener |This interface is used for receiving the action events |
 | ComponentListener | This interface is used for receiving the component events. |
