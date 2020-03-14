@@ -5,7 +5,7 @@ Adapter classes provide an implementation of listener interfaces. When you inher
 * java.awt.dnd
 * javax.swing.event
 
-- *java.awt.event* 
+*java.awt.event* 
 | **Adapter Class** | **Listener Interface** |
 | ----------------------- | -----------------------------|
 | WindowAdapter | WindowListener |
@@ -17,13 +17,13 @@ Adapter classes provide an implementation of listener interfaces. When you inher
 | ContainerAdapter | ContainerListener |
 | HierarchyBoundsAdapter | HierarchyBoundsListener |
 
-- *java.awt.dnd*
+*java.awt.dnd*
 | **Adapter Class** | **Listener Interface** |
 | ----------------------- | -----------------------------|
 | DragSourceAdapter | DragSourceListener |
 | DragTargetAdapter | DragTargetListener |
 
-- *javax.swing.event*
+*javax.swing.event*
 | **Adapter Class** | **Listener Interface** |  
 | ----------------------- | ---------------------------- |
 | MouseInputAdapter | MouseInputListener |
