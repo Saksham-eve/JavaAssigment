@@ -5,29 +5,29 @@ Adapter classes provide an implementation of listener interfaces. When you inher
 * java.awt.dnd
 * javax.swing.event
 
-** java.awt.event ** 
-| ** Adapter Class ** | | ** Listener Interface ** |
+* java.awt.event * 
+| ** Adapter Class ** | ** Listener Interface ** |
 |------------------------| |-----------------------------|
-| WindowAdapter | | WindowListener |
-| KeyAdapter | | KeyListener |
-| MouseAdapter | | MouseListener |
-| MouseMotionAdapter | | MouseMotionListener |
-| FocusAdapter | | FocusListener |
-| ComponentAdapter | | ComponentListener|
-| ContainerAdapter | | ContainerListener |
-| HierarchyBoundsAdapter | | HierarchyBoundsListener |
+| WindowAdapter | WindowListener |
+| KeyAdapter | KeyListener |
+| MouseAdapter | MouseListener |
+| MouseMotionAdapter | MouseMotionListener |
+| FocusAdapter | FocusListener |
+| ComponentAdapter | ComponentListener|
+| ContainerAdapter | ContainerListener |
+| HierarchyBoundsAdapter | HierarchyBoundsListener |
 
-** java.awt.dnd **
-| ** Adapter Class ** | | ** Listener Interface ** |
-|-----------------------| |-----------------------------|
-| DragSourceAdapter | | DragSourceListener |
-| DragTargetAdapter | | DragTargetListener |
+* java.awt.dnd *
+| ** Adapter Class ** | ** Listener Interface ** |
+|-----------------------|-----------------------------|
+| DragSourceAdapter | DragSourceListener |
+| DragTargetAdapter | DragTargetListener |
 
-** javax.swing.event **
-| ** Adapter Class ** | | ** Listener Interface ** |  
-|----------------------- | |---------------------------- |
-| MouseInputAdapter | | MouseInputListener |
-| InternalFrameAdapter | | InternalFrameListener |
+* javax.swing.event *
+| ** Adapter Class ** | ** Listener Interface ** |  
+|-----------------------|---------------------------- |
+| MouseInputAdapter | MouseInputListener |
+| InternalFrameAdapter | InternalFrameListener |
 
 ## Example
 ``` javascript
