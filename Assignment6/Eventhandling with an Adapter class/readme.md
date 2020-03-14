@@ -1,11 +1,11 @@
-** Q.1. How do you handle events with an adapter class in Java? ** 
+**Q.1. How do you handle events with an adapter class in Java?** 
 
 Adapter classes provide an implementation of listener interfaces. When you inherit the adapter class implementation for all methods is not mandatory. Thus writing excess code is saved.These adapter classes can be found in java.awt.event, java.awt.dnd and javax.swing.event packages. Some of the common adapter classes with corresponding listener interfaces are given below.
 * java.awt.event
 * java.awt.dnd
 * javax.swing.event
 
-*java.awt.event* 
+- *java.awt.event* 
 | **Adapter Class** | **Listener Interface** |
 | ----------------------- | -----------------------------|
 | WindowAdapter | WindowListener |
@@ -17,13 +17,13 @@ Adapter classes provide an implementation of listener interfaces. When you inher
 | ContainerAdapter | ContainerListener |
 | HierarchyBoundsAdapter | HierarchyBoundsListener |
 
-*java.awt.dnd*
+- *java.awt.dnd*
 | **Adapter Class** | **Listener Interface** |
 | ----------------------- | -----------------------------|
 | DragSourceAdapter | DragSourceListener |
 | DragTargetAdapter | DragTargetListener |
 
-*javax.swing.event*
+- *javax.swing.event*
 | **Adapter Class** | **Listener Interface** |  
 | ----------------------- | ---------------------------- |
 | MouseInputAdapter | MouseInputListener |
