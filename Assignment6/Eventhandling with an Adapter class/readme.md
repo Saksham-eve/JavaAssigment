@@ -7,7 +7,7 @@ Adapter classes provide an implementation of listener interfaces. When you inher
 
 * java.awt.event * 
 | ** Adapter Class ** | ** Listener Interface ** |
-|------------------------| |-----------------------------|
+| ----------------------- |-----------------------------|
 | WindowAdapter | WindowListener |
 | KeyAdapter | KeyListener |
 | MouseAdapter | MouseListener |
