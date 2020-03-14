@@ -2,7 +2,7 @@
 Event listeners represent the interfaces responsible to handle events. Java provides various Event listener classes, however, only those which are more frequently used will be discussed. Every method of an event listener method has a single argument as an object which is the subclass of EventObject class. 
 For example, mouse event listener methods will accept instance of MouseEvent, where MouseEvent derives from EventObject.
 
-## EventListner Interface
+## EventListener Interface
 It is a marker interface which every listener interface has to extend. This class is defined in java.util package.
 
 ## Class Declaration
