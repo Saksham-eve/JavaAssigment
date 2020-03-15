@@ -8,13 +8,13 @@ To be able to respond to events, a program must:
 Following is the declaration for java.util.EventObject class:
 * public class EventObject
    extends Object
-      implements Serializable *
+      implements Serializable
 
 ## Class Constructor
-** EventObject ** -  Constructs a prototypical Event
+**EventObject** -  Constructs a prototypical Event
 
 ## Class methods
-| ** Method ** | ** Description **|
+| **Method** | **Description**|
 | --------------- | -------------------- |
 |Object getSource() | The object on which the Event initially occurred. |
 | String toString() | Returns a String representation of this EventObject. |
